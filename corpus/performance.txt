@@ -1,0 +1,43 @@
+LENGTH: 100
+
+english words
+<><><><><><><><><><> english on corpus/test/secrets.txt  <><><><><><><><><><>
+COMBO -- Win rate: 0.63 | Attempts left if win: 4.10
+ENTROPY -- Win rate: 0.55 | Attempts left if win: 4.44
+BAYESIAN -- Win rate: 0.34 | Attempts left if win: 2.38
+UNIGRAM -- Win rate: 0.17 | Attempts left if win: 2.18
+RANDOM -- Win rate: 0.00 | Attempts left if win: nan
+<><><><><><><><><><> english on corpus/test/blindsecrets.txt  <><><><><><><><><><>
+COMBO -- Win rate: 0.55 | Attempts left if win: 3.35
+ENTROPY -- Win rate: 0.41 | Attempts left if win: 3.79
+BAYESIAN -- Win rate: 0.40 | Attempts left if win: 2.39
+UNIGRAM -- Win rate: 0.21 | Attempts left if win: 2.28
+RANDOM -- Win rate: 0.00 | Attempts left if win: nan
+
+aviation words
+<><><><><><><><><><> airline on corpus/test/secrets.txt  <><><><><><><><><><>
+COMBO -- Win rate: 0.53 | Attempts left if win: 3.24
+ENTROPY -- Win rate: 0.38 | Attempts left if win: 3.63
+BAYESIAN -- Win rate: 0.38 | Attempts left if win: 2.40
+UNIGRAM -- Win rate: 0.20 | Attempts left if win: 2.15
+RANDOM -- Win rate: 0.01 | Attempts left if win: 2.00
+<><><><><><><><><><> airline on corpus/test/blindsecrets.txt  <><><><><><><><><><>
+COMBO -- Win rate: 0.53 | Attempts left if win: 3.24
+ENTROPY -- Win rate: 0.37 | Attempts left if win: 3.65
+BAYESIAN -- Win rate: 0.39 | Attempts left if win: 2.42
+UNIGRAM -- Win rate: 0.20 | Attempts left if win: 2.21
+RANDOM -- Win rate: 0.01 | Attempts left if win: 2.00
+
+combined words
+<><><><><><><><><><> both on corpus/test/secrets.txt  <><><><><><><><><><>
+COMBO -- Win rate: 0.68 | Attempts left if win: 3.68
+ENTROPY -- Win rate: 0.56 | Attempts left if win: 3.96
+BAYESIAN -- Win rate: 0.41 | Attempts left if win: 2.38
+UNIGRAM -- Win rate: 0.21 | Attempts left if win: 2.33
+RANDOM -- Win rate: 0.00 | Attempts left if win: nan
+<><><><><><><><><><> both on corpus/test/blindsecrets.txt  <><><><><><><><><><>
+COMBO -- Win rate: 0.68 | Attempts left if win: 3.66
+ENTROPY -- Win rate: 0.57 | Attempts left if win: 3.92
+BAYESIAN -- Win rate: 0.41 | Attempts left if win: 2.30
+UNIGRAM -- Win rate: 0.21 | Attempts left if win: 2.28
+RANDOM -- Win rate: 0.00 | Attempts left if win: nan
