@@ -14,7 +14,7 @@ The project includes:
 ## Table of Contents
 1. [Overview](#overview)  
 2. [Approach & Strategies](#approach--strategies)
-3. [Corpus Creation](#Corpus--reation)
+3. [Corpus Creation](#corpus-creation)
 4. [Project Structure](#project-structure)  
 5. [Installation & Setup](#installation--setup)  
    - [Clone the Repository](#1-clone-the-repository)  
@@ -80,7 +80,7 @@ The solver supports multiple strategies with varying levels of sophistication:
 
 ## Corpus Creation
 
-A strong solver requires a **representative word corpus**.  
+A strong solver requires a **representative word corpus**. Although this project focuses on Aviation terminology, it can easily be customized for other themes as well.   
 This project builds two main corpora:
 
 1. **General English Corpus**  
@@ -121,9 +121,8 @@ corpus_list = ["corpus/word_corpus.txt", "corpus/airline_corpus.txt"]
 │   ├── airline\_corpus.txt
 │   └── test/
 │       ├── secrets.txt
-│       ├── blindsecrets.txt
 │       ├── gitsecrets.txt
-│       └── stats\_\*.json
+│       └── performance.txt
 ├── requirements.txt      # Python dependencies
 └── README.md             # Project documentation
 
@@ -144,7 +143,6 @@ cd <REPOSITORY_NAME>
 ```bash
 python -m venv venv
 source venv/bin/activate   # On Mac/Linux
-venv\Scripts\activate      # On Windows
 ```
 
 ### 3. Install Dependencies
